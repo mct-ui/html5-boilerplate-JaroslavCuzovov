@@ -1,11 +1,3 @@
-body{
-    background: Khaki;
-}
-
-img {
-    max-width: 100%;
-    vertical-align: top;
-}
 
 html {
     font-size: 16px;
@@ -32,4 +24,113 @@ html {
     background: #e85e00;
     color: white;
     text-shadow: none;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+/*
+    Elements: typography
+    ---
+    Default markup for typographic elements
+*/
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 48px;
+}
+
+h2 {
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+
+}
+
+/* A blockquote is a large quotation.
+The content of a blockquote element must include block-level elements such as headings, lists, paragraphs or div’s.
+This element can also have an optional attribute cite that specifies the location (in the form of a URI) where the quote has come from.  */
+blockquote {
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    font-family: "Times New Roman", serif;
+}
+
+/* *for selecting everything inside blockquote */
+blockquote * {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+ul,
+ol {
+    padding-left: 24px;
+}
+
+li ul,
+li ol{
+    margin-bottom: 0;
+}
+
+/*caption onder de image*/
+figcaption {
+    font-size: 1px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: Grey;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: LightGrey;
+    margin: 0 0 24px;
+}
+
+a {
+
+}
+
+a:hover,
+a:focus {
+
+}
+
+a:visited,
+a:active {
+
 }
