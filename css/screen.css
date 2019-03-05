@@ -122,15 +122,18 @@ hr {
 }
 
 a {
-
+    color: RoyalBlue;
+    transition: all .1s ease-in-out;
 }
 
-a:hover,
-a:focus {
-
-}
-
+/* active: during the click */
 a:visited,
 a:active {
+    color: BlueViolet;
+}
 
+/* focus: through tabbing to it, for example */
+a:hover,
+a:focus {
+    color: Crimson;
 }
